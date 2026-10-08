@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "title": "Hordes.io",
+    "description": "Free browser MMORPG. Run around in massive hordes, level up, fight other players and monsters in a persistent world.",
+    "categories": ["rpg", "multiplayer"],
+    "url": "https://hordes.io",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["mmorpg", "pvp", "open-world"]
+  },
+  {
+    "id": 2,
+    "title": "Die in the Dungeon CLASSIC",
+    "description": "Dice-based roguelike RPG. Place attack, defense, heal and boost dice strategically to survive deeper dungeon floors.",
+    "categories": ["rpg"],
+    "url": "https://piratera.itch.io/die-in-the-dungeon",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["roguelike", "dice", "strategy"]
+  },
+  {
+    "id": 3,
+    "title": "Simple RPGs",
+    "description": "Classic turn-based dungeon crawler RPG made with PICO-8. Choose a hero, learn skills, fight monsters and find the lost amulet.",
+    "categories": ["rpg"],
+    "url": "https://ryancavendell.itch.io/simple-rpgs",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["turn-based", "pixel", "dungeon-crawler"]
+  },
+  {
+    "id": 4,
+    "title": "Krunker.io",
+    "description": "Fast-paced multiplayer FPS. Quick matches, great movement, and pure skill-based gunplay. Perfect for rage and multiplayer sessions.",
+    "categories": ["multiplayer", "rage"],
+    "url": "https://krunker.io",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["fps", "competitive", "fast-paced"]
+  },
+  {
+    "id": 5,
+    "title": "skribbl.io",
+    "description": "Draw and guess with friends or strangers. Hilarious multiplayer party game that never gets old.",
+    "categories": ["multiplayer"],
+    "url": "https://skribbl.io",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["drawing", "party", "casual"]
+  },
+  {
+    "id": 6,
+    "title": "INKWAVE",
+    "description": "Free 4v4 turf-war shooter. Paint the map with ink, swim through your color, and out-turf the enemy team. Fully browser-based.",
+    "categories": ["multiplayer"],
+    "url": "https://inkwavegame.com",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["shooter", "team", "3d"]
+  },
+  {
+    "id": 7,
+    "title": "Shell Shockers",
+    "description": "Egg-themed multiplayer FPS. Run around as an armed egg and shoot other eggs. Surprisingly addictive and rage-inducing.",
+    "categories": ["multiplayer", "rage"],
+    "url": "https://shellshock.io",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["fps", "funny", "competitive"]
+  },
+  {
+    "id": 8,
+    "title": "Page Rage",
+    "description": "Destroy websites with weapons while flying around with a jetpack. Pure chaotic rage satisfaction in your browser.",
+    "categories": ["rage"],
+    "url": "https://pagerage.org",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["destruction", "physics", "fun"]
+  },
+  {
+    "id": 9,
+    "title": "Don't Rage Quit",
+    "description": "2D platformer designed to test your patience and make you want to rage quit. Can you keep calm?",
+    "categories": ["rage"],
+    "url": "https://lifespective.itch.io/dont-rage-quit",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["platformer", "hard", "challenging"]
+  },
+  {
+    "id": 10,
+    "title": "Agar.io",
+    "description": "Classic multiplayer cell game. Eat smaller cells, avoid bigger ones, and grow as large as possible in a chaotic arena.",
+    "categories": ["multiplayer"],
+    "url": "https://agar.io",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["io", "arena", "casual"]
+  },
+  {
+    "id": 11,
+    "title": "Night Shift: Raven’s Hollow",
+    "description": "Atmospheric first-person horror. Drive a truck through the desert at night while following strange rules. Headphones recommended.",
+    "categories": ["horror"],
+    "url": "https://bynight.netlify.app",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["atmospheric", "first-person", "rules"]
+  },
+  {
+    "id": 12,
+    "title": "The Backrooms: Level 0",
+    "description": "Get lost in the endless yellow maze of the Backrooms. Something is waiting for you in the fluorescent lights.",
+    "categories": ["horror"],
+    "url": "https://bynight.netlify.app",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["backrooms", "maze", "liminal"]
+  },
+  {
+    "id": 13,
+    "title": "Quiet us",
+    "description": "Short atmospheric horror experience about companionship and silence. Playable directly in browser on itch.io.",
+    "categories": ["horror"],
+    "url": "https://itch.io/games/free/tag-horror/tag-html5",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["short", "atmospheric", "story"]
+  },
+  {
+    "id": 14,
+    "title": "HaxBall",
+    "description": "Physics-based multiplayer football/soccer. Simple controls, deep skill ceiling, great for raging with friends.",
+    "categories": ["multiplayer", "rage"],
+    "url": "https://www.haxball.com",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["sports", "physics", "competitive"]
+  },
+  {
+    "id": 15,
+    "title": "Smash Karts",
+    "description": "Multiplayer kart racing with weapons. Chaotic, fun, and perfect for yelling at the screen with friends.",
+    "categories": ["multiplayer", "rage"],
+    "url": "https://smashkarts.io",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["racing", "weapons", "fun"]
+  },
+  {
+    "id": 16,
+    "title": "PartyScape: Idle MMORPG",
+    "description": "Free multiplayer idle MMORPG that runs entirely in your browser. Progress even when offline.",
+    "categories": ["rpg", "multiplayer"],
+    "url": "https://partyscape.dev",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["idle", "mmorpg", "persistent"]
+  },
+  {
+    "id": 17,
+    "title": "Bound Below",
+    "description": "Give up the ghost in this atmospheric platformer horror experience available on itch.io.",
+    "categories": ["horror"],
+    "url": "https://rainbowcemetery.itch.io/bound-below",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["platformer", "atmospheric"]
+  },
+  {
+    "id": 18,
+    "title": "Super Troll World",
+    "description": "Classic-style platformer full of troll level design meant to make you rage. Can you stay calm?",
+    "categories": ["rage"],
+    "url": "https://da-king7777.itch.io/super-troll-world",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["platformer", "troll", "hard"]
+  },
+    {
+    "id": 19,
+    "title": "PolyTrack",
+    "description": "High-speed low-poly racing game. Fast tracks, clean controls, and pure racing fun in your browser.",
+    "categories": ["rage"],
+    "url": "https://kodub.itch.io/polytrack",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["racing", "car", "fast"]
+  },
+  {
+    "id": 20,
+    "title": "Slow Roads",
+    "description": "Endless peaceful driving. Generate infinite roads and just cruise. Perfect chill car game.",
+    "categories": ["rage"],
+    "url": "https://slowroads.io",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["driving", "relaxing", "endless"]
+  },
+  {
+    "id": 21,
+    "title": "Fall Beans",
+    "description": "Free Fall Guys-style bean racing. Chaotic obstacle courses with other beans — no download needed.",
+    "categories": ["multiplayer", "rage"],
+    "url": "https://viverse.com",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["fall-guys", "party", "obstacle"]
+  },
+  {
+    "id": 22,
+    "title": "Trigger Dungeon",
+    "description": "Classic rage platformer full of traps and trolls. Get ready to die a lot and rage a little.",
+    "categories": ["rage"],
+    "url": "https://benjames.itch.io/trigger-dungeon",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["platformer", "troll", "hard"]
+  },
+  {
+    "id": 23,
+    "title": "Time to Panic!",
+    "description": "Tiny but extremely frustrating platformer with cute pixel art. Designed to make you panic.",
+    "categories": ["rage"],
+    "url": "https://jani-nykanen.itch.io/time-to-panic",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["platformer", "short", "frustrating"]
+  },
+  {
+    "id": 24,
+    "title": "Exhibit of Sorrows",
+    "description": "Creepy horror experience with dolls and a not-so-friendly clown. Atmospheric and unsettling.",
+    "categories": ["horror"],
+    "url": "https://adayofjoy.itch.io/exhibit-of-sorrows",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["atmospheric", "dolls", "short"]
+  },
+  {
+    "id": 25,
+    "title": "last seen online",
+    "description": "Horror puzzle game where you look through a stranger’s computer. Extremely atmospheric.",
+    "categories": ["horror"],
+    "url": "https://qwook.itch.io/last-seen-online",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["puzzle", "computer", "psychological"]
+  },
+  {
+    "id": 26,
+    "title": "Flesh, Blood, & Concrete",
+    "description": "RPG Maker-style horror exploration of an apartment building. Deep and creepy.",
+    "categories": ["horror", "rpg"],
+    "url": "https://io.itch.io/flesh-blood-concrete",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["exploration", "atmospheric", "rpg-maker"]
+  },
+  {
+    "id": 27,
+    "title": "Madalin Stunt Cars 2",
+    "description": "Open-world stunt driving with supercars, ramps and crazy jumps. Classic free browser car game.",
+    "categories": ["rage"],
+    "url": "https://www.madalin-stunt-cars-2.com",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["stunt", "car", "open-world"]
+  },
+  {
+    "id": 28,
+    "title": "Ninja Platformer Rage",
+    "description": "Precise and punishing ninja platformer. Shadow clones, traps, and pure rage-inducing levels.",
+    "categories": ["rage"],
+    "url": "https://crazygames.com/game/ninja-platformer-rage",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["platformer", "ninja", "hard"]
+  },
+    {
+    "id": 19,
+    "title": "Level Devil",
+    "description": "The platformer that does not want you to win. Every jump is a trap, every floor is a lie. Pure rage-inducing fun.",
+    "categories": ["rage"],
+    "url": "https://playleveldevil.com/",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["platformer", "traps", "hard", "troll"]
+  },
+  {
+    "id": 20,
+    "title": "OvO",
+    "description": "Fast-paced stickman parkour platformer. Precise jumps, slides and wall kicks. Very similar frustration level to Level Devil.",
+    "categories": ["rage"],
+    "url": "https://www.crazygames.com/game/ovo",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["parkour", "stickman", "precision", "hard"]
+  },
+  {
+    "id": 21,
+    "title": "Slow Roads",
+    "description": "Relaxing endless driving through beautiful procedurally generated landscapes. No goals, just drive.",
+    "categories": ["multiplayer"],
+    "url": "https://slowroads.io",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["driving", "relaxing", "scenic", "car"]
+  },
+  {
+    "id": 22,
+    "title": "HexGL",
+    "description": "High-speed futuristic 3D racing game that runs completely in the browser.",
+    "categories": ["multiplayer"],
+    "url": "https://hexgl.bkcore.com/",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["racing", "3d", "futuristic", "car"]
+  },
+  {
+    "id": 23,
+    "title": "PolyTrack",
+    "description": "High-speed low-poly racing game with track editor. Fast and fun car racing.",
+    "categories": ["multiplayer"],
+    "url": "https://kodub.itch.io/polytrack",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["racing", "low-poly", "car"]
+  },
+  {
+    "id": 24,
+    "title": "Don't Look Away",
+    "description": "Five-night browser horror. Keep your flashlight on the real eyes or something bad happens. Headphones recommended.",
+    "categories": ["horror"],
+    "url": "https://crimson-cloud-games.itch.io/dont-look-away",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["horror", "flashlight", "nights"]
+  },
+  {
+    "id": 25,
+    "title": "By Night Collection",
+    "description": "Atmospheric first-person horror games (Night Shift + Backrooms). Best played at night with headphones.",
+    "categories": ["horror"],
+    "url": "https://bynight.netlify.app/",
+    "thumbnail": "",
+    "play_type": "external",
+    "tags": ["atmospheric", "first-person", "jump-scare"]
+  }
+]

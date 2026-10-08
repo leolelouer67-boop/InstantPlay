@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}InstantPlay{% endblock %} – Free Games, No Ads</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            900: '#0a0a0f',
+                            800: '#12121a',
+                            700: '#1a1a26',
+                            600: '#252533'
+                        },
+                        accent: {
+                            DEFAULT: '#7c3aed',
+                            hover: '#6d28d9',
+                            light: '#a78bfa'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-dark-900 text-gray-100 min-h-screen font-sans antialiased">
+    <!-- Navbar -->
+    <nav class="bg-dark-800/80 backdrop-blur-md border-b border-dark-600 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="{{ url_for('index') }}" class="flex items-center gap-2 group">
+                    <span class="text-2xl font-bold tracking-tight text-white group-hover:text-accent-light transition">
+                        <span class="text-accent">Instant</span>Play
+                    </span>
+                    <span class="text-xs bg-accent/20 text-accent-light px-2 py-0.5 rounded-full font-medium">FREE</span>
+                </a>
+
+                <div class="hidden md:flex items-center gap-6">
+                    <a href="{{ url_for('index') }}" class="text-gray-300 hover:text-white transition">Home</a>
+                    <a href="{{ url_for('category', cat_id='rpg') }}" class="text-gray-300 hover:text-white transition">RPG</a>
+                    <a href="{{ url_for('category', cat_id='horror') }}" class="text-gray-300 hover:text-white transition">Horror</a>
+                    <a href="{{ url_for('category', cat_id='multiplayer') }}" class="text-gray-300 hover:text-white transition">Multiplayer</a>
+                    <a href="{{ url_for('category', cat_id='rage') }}" class="text-gray-300 hover:text-white transition">Rage</a>
+                </div>
+
+                <div class="flex items-center gap-3">
+                    <form action="{{ url_for('search') }}" method="get" class="hidden sm:block">
+                        <input type="text" name="q" placeholder="Search games..." 
+                               class="bg-dark-700 border border-dark-600 rounded-lg px-3 py-1.5 text-sm focus:outline-none focus:border-accent w-40 lg:w-56">
+                    </form>
+                    <a href="{{ url_for('random_game') }}" 
+                       class="bg-accent hover:bg-accent-hover text-white px-4 py-1.5 rounded-lg text-sm font-semibold transition shadow-lg shadow-accent/20">
+                        🎲 Random
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-dark-600 mt-16 py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
+            <p class="mb-2">
+                <span class="text-accent font-semibold">InstantPlay</span> — 100% Free Games. Zero Ads. Forever.
+            </p>
+            <p>All games linked are free to play. We do not host copyrighted content.</p>
+            <p class="mt-3 text-xs text-gray-600">Built with ❤️ using Python & Flask</p>
+        </div>
+    </footer>
+</body>
+</html>

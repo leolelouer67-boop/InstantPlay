@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}{{ game.title }} – InstantPlay{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto">
+    <a href="{{ url_for('index') }}" class="text-gray-400 hover:text-white text-sm mb-6 inline-block">← Back to Home</a>
+
+    <div class="bg-dark-800 border border-dark-600 rounded-2xl overflow-hidden">
+        <div class="h-48 bg-gradient-to-br from-dark-700 via-dark-600 to-dark-700 flex items-center justify-center">
+            <span class="text-7xl opacity-80">
+                {% if 'rpg' in game.categories %}⚔️
+                {% elif 'horror' in game.categories %}👻
+                {% elif 'multiplayer' in game.categories %}👥
+                {% else %}🔥{% endif %}
+            </span>
+        </div>
+
+        <div class="p-8">
+            <h1 class="text-3xl font-bold mb-3">{{ game.title }}</h1>
+            
+            <div class="flex flex-wrap gap-2 mb-5">
+                {% for cat in game.categories %}
+                <a href="{{ url_for('category', cat_id=cat) }}" 
+                   class="text-sm bg-accent/20 text-accent-light px-3 py-1 rounded-full hover:bg-accent/30 transition">
+                    {{ categories[cat].name }}
+                </a>
+                {% endfor %}
+                {% for tag in game.tags %}
+                <span class="text-sm bg-dark-700 text-gray-400 px-3 py-1 rounded-full">{{ tag }}</span>
+                {% endfor %}
+            </div>
+
+            <p class="text-gray-300 text-lg leading-relaxed mb-8">{{ game.description }}</p>
+
+            <div class="flex flex-wrap gap-4">
+                <a href="{{ game.url }}" target="_blank" rel="noopener noreferrer"
+                   class="bg-accent hover:bg-accent-hover text-white px-8 py-3 rounded-xl font-bold text-lg shadow-lg shadow-accent/30 transition transform hover:scale-105">
+                    ▶ Play Now (Free)
+                </a>
+                <a href="{{ url_for('random_game') }}" 
+                   class="bg-dark-700 hover:bg-dark-600 border border-dark-600 text-white px-6 py-3 rounded-xl font-semibold transition">
+                    🎲 Another Random
+                </a>
+            </div>
+
+            <p class="mt-6 text-sm text-gray-500">
+                Opens in a new tab. This game is completely free and requires no download.
+            </p>
+        </div>
+    </div>
+
+    <!-- Quick category links -->
+    <div class="mt-10">
+        <h3 class="text-lg font-semibold mb-4">More in these categories</h3>
+        <div class="flex flex-wrap gap-3">
+            {% for cat in game.categories %}
+            <a href="{{ url_for('category', cat_id=cat) }}" 
+               class="bg-dark-800 border border-dark-600 hover:border-accent/50 px-4 py-2 rounded-lg text-sm transition">
+                {{ categories[cat].icon }} {{ categories[cat].name }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

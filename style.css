@@ -1,0 +1,24 @@
+/* InstantPlay custom styles */
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+input:focus, a:focus {
+    outline: 2px solid #7c3aed;
+    outline-offset: 2px;
+}
+
+.group:hover {
+    box-shadow: 0 0 0 1px rgba(124, 58, 237, 0.15);
+}
